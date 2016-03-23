@@ -1,23 +1,33 @@
 {
-	"name": "FWS_Forms",
-	"version": "0.0.1",
-	"main": "server.js",
-	"scripts": {
-		"test": "echo 'Error: no test specidied' && exit 1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git@github.com:victor-basurto/fws-request-form.git"
-	},
-	"author": "victor basurto",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/victor-basurto/fws-request-form/issues"
-	},
-	"homepage": "https://github.com/victor-basurto/fws-request-form#readme",
-	"dependencies": {
-		"express": "^4.13.4",
-		"body-parser": "^1.15.0",
-		"nodemailer": "^2.3.0"
-	}
+  "name": "FWS_Forms",
+  "version": "0.0.1",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo 'Error: no test specidied' && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:victor-basurto/fws-request-form.git"
+  },
+  "author": "victor basurto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victor-basurto/fws-request-form/issues"
+  },
+  "homepage": "https://github.com/victor-basurto/fws-request-form#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "body-parser": "^1.15.0",
+    "nodemailer": "^2.3.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-compass": "^2.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3"
+  }
 }
