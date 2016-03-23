@@ -28,5 +28,4 @@ node_modules/
 app/js/libs/
 .sass-cache
 *.css.map
-build/
 dist/
