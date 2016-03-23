@@ -24,7 +24,7 @@ also, im going to leave here a detail explanation about gulp dependencies
 ```javascript
  "devDependencies": {
     "browser-sync": "^2.11.2",      // live css reloading
-    "del": "^2.2.0",                // delete files and folders using globals
+    "del": "^2.2.0",                // delete files and folders using globs
     "gulp": "^3.9.1",               // task runner
     "gulp-autoprefixer": "^3.1.0",  // to prefix our css
     "gulp-compass": "^2.1.0",       // adds compass - sass support
