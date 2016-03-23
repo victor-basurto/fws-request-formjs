@@ -22,14 +22,16 @@ this will install all the components and dependencies that we need for this proj
 also, im going to leave here a detail explanation about gulp dependencies
 
 ```javascript
- "devDependencies": {
-    "browser-sync": "^2.11.2",      // live css reloading
-    "del": "^2.2.0",                // delete files and folders using globs
-    "gulp": "^3.9.1",               // task runner
-    "gulp-autoprefixer": "^3.1.0",  // to prefix our css
-    "gulp-compass": "^2.1.0",       // adds compass - sass support
-    "gulp-plumber": "^1.1.0",       // prevents pipes from breaking caused by errors from gulp plugins
-    "gulp-rename": "^1.2.2",        // rename javascript files
-    "gulp-uglify": "^1.5.3"         // minify files
-  }
+"dependencies": {
+	"body-parser": "^1.15.0",
+	"express": "^4.13.4",
+	"gulp-requirejs": "^0.1.3",
+	"node-sass-middleware": "^0.9.7",
+	"nodemailer": "^2.3.0",
+	"requirejs": "^2.2.0"
+}
+"devDependencies": {
+	"gulp": "^3.9.1",       // task runner
+	"gulp-sass": "^2.2.0"	// watch sass changes
+}
 ```

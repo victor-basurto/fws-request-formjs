@@ -1,19 +1,14 @@
-/**
- * Required Modules
- */
 var gulp = require( 'gulp' ),
-	uglify = require( 'gulp-uglify' );
+	sass = require( 'gulp-sass' );
 
-/**
- * Scripts Task
- */
-gulp.task( 'scripts', function() {
-	gulp.src( '.app/js/**/*.js' )
-			.pipe( uglify() )
-			.pipe( gulp.dest( '.app/js' ) );
+gulp.task( 'sass', function() {
+	gulp.src( './style/*.scss' )
+		.pipe( sass() )
+		.pipe( gulp.dest( './styles' ) );
 });
 
-/**
- * Default Task
- */
-gulp.task( 'default', [ 'scripts' ] );
+gulp.task( 'watch', function() {
+	gulp.watch( './style/*.scss', [ 'sass' ] );
+});
+
+gulp.task( 'default', [ 'sass', 'watch' ] );
