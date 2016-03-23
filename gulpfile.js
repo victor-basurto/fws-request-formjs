@@ -2,9 +2,9 @@ var gulp = require( 'gulp' ),
 	sass = require( 'gulp-sass' );
 
 gulp.task( 'sass', function() {
-	gulp.src( './style/*.scss' )
+	gulp.src( './stylesheets/*.scss' )
 		.pipe( sass() )
-		.pipe( gulp.dest( './styles' ) );
+		.pipe( gulp.dest( './css' ) );
 });
 
 gulp.task( 'watch', function() {

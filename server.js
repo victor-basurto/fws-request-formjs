@@ -12,7 +12,7 @@ app.use( bodyParser.json() );
 // sass middleware
 app.use( sassMiddleware({ 
 	src: __dirname + '/app/stylesheets',
-	dest: __dirname + '/app',
+	dest: __dirname + '/app/css',
 	debug: true,
 	outputStyle: 'compressed',
 	prefix: '/prefix'
