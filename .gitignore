@@ -1,0 +1,32 @@
+# Packages #
+############
+# do not upload these files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs #
+###########
+*.log
+
+# OS generated files #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build Systems #
+node_modules/
+app/js/libs/
+.sass-cache
+*.css.map
+build/
+dist/
